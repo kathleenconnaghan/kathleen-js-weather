@@ -8,4 +8,3 @@ What I would like to do next:
 * Put a textbox where you can specify your city instead of having to always grab the geolocation
 * Place an image of the nearest city to you using [teleport.org](https://www.teleport.org)
 * Make it mobile friendly
-# test
