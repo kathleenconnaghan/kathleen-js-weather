@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+    <head>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./main.css">
+
+    </head>
+
+    <body>
+
+        <div class="main-wrapper">
+            <div class="main-info">
+                <div class="top">
+                    <div id="city" class="city">-</div>
+                    <div id="main-day" class="day">-</div>
+                    <div id="main-date-time" class="date">-</div>
+                </div>
+                <div class="bottom">
+                    <div id="main-weather-icon" class="weather-icon">
+
+                    </div>
+                    <div id="main-temp" class="temperature">
+                        - <span>°</span>
+                    </div>
+                    <div id="main-weather-type" class="weather-name">
+                        -
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div class="detail-words-wrapper">
+                    <div class="detail">
+                        <div class="left">
+                            Precipitation
+                        </div>
+                        <div id="main-prec" class="right">
+                            -%
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="left">
+                            Humidity
+                        </div>
+                        <div id="main-humidity" class="right">
+                            -%
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="left">
+                            Wind
+                        </div>
+                        <div id="main-wind" class="right">
+                            - mph
+                        </div>
+                    </div>
+                </div>
+
+                <div class="days-wrapper">
+
+                    <div class="day-wrapper">
+                        <div id="day-wrap0-icon" class="icon"></div>
+                        <div id="day-wrap0-day" class="day">-</div>
+                        <div id="day-wrap0-temp" class="temp">-</div>
+                    </div>
+                    <div class="day-wrapper">
+                        <div id="day-wrap1-icon" class="icon"></div>
+                        <div id="day-wrap1-day" class="day">Tue</div>
+                        <div id="day-wrap1-temp" class="temp">-</div>
+                    </div>
+                    <div class="day-wrapper">
+                        <div id="day-wrap2-icon" class="icon"></div>
+                        <div id="day-wrap2-day" class="day">-</div>
+                        <div id="day-wrap2-temp" class="temp">-</div>
+                    </div>
+                    <div class="day-wrapper">
+                        <div id="day-wrap3-icon" class="icon"></div>
+                        <div id="day-wrap3-day" class="day">-</div>
+                        <div id="day-wrap3-temp" class="temp">-</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="blurb">
+            By <a href="https://github.com/kathleenconnaghan" target="_blank">Kathleen C</a>. Weather retrieved via <a href="https://www.weatherbit.io" target="_blank">weatherbit.io</a>.
+        </div>
+
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+            crossorigin="anonymous">
+        </script>
+
+        <script src="./main.js"></script>
+
+    </body>
+
+</html>

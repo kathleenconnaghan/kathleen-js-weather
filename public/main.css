@@ -1,0 +1,91 @@
+html, body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: #353d4d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Comfortaa', sans-serif;
+    flex-direction: column;
+}
+
+.blurb {
+    padding-top: 4rem;
+    font-size: 0.9rem;
+}
+
+.main-wrapper {
+    display: flex;
+    min-height: 28rem;
+}
+.main-info {
+    background: rgb(9,79,121);
+    background: linear-gradient(0deg, rgba(9,79,121,1) 12%, rgba(0,212,255,1) 100%);
+    padding: 1rem;
+    min-width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.main-info .bottom {
+    padding-bottom: 1rem;
+}
+.weather-icon {
+    width: 6rem;
+    margin-left: -0.5rem;
+}
+.main-info .city {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.main-info .day {
+    font-size: 1rem;
+}
+.main-info .date {
+    font-size: 0.8rem;
+}
+.main-info .temperature {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.details {
+    background: #242a35;
+    min-width: 20rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.details .detail {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.days-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+.day-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.day-wrapper .icon img {
+    width: 2.5rem;
+}
+.day-wrapper .day {
+
+}
+.day-wrapper .temp {
+
+}
